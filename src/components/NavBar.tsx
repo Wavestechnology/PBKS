@@ -36,7 +36,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            to="/"
+            to="/about"
             className="text-secondary hover:text-green-600 font-medium"
           >
             About
