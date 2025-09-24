@@ -11,8 +11,8 @@ const Footer = () => {
               <img
                 src="logo1.png"
                 alt="Pak Bookkeeping Logo"
-                className="h-20 mb-4"
-                />
+                className="w-23 h-23 mb-4 rounded-full object-contain bg-white p-2"
+              />
             </Link>
             <p className="text-primary-light text-sm leading-relaxed">
               Delivering expert virtual bookkeeping, tax, audit, and management
@@ -70,10 +70,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/consulting"
-                  className="hover:text-accent transition"
-                >
+                <Link to="/consulting" className="hover:text-accent transition">
                   Management Consulting
                 </Link>
               </li>
@@ -86,10 +83,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center text-primary-light text-sm">
           <p>&copy; 2025 Pak Bookkeeping Services. All Rights Reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link to="/privacy" className="hover:text-accent">
+            <Link to="/" className="hover:text-accent">
               Privacy Policy
             </Link>
-            <Link to="/terms" className="hover:text-accent">
+            <Link to="/" className="hover:text-accent">
               Terms of Use
             </Link>
           </div>
