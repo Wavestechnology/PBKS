@@ -42,7 +42,7 @@ export default function Navbar() {
             About
           </Link>
           <Link
-            to="/"
+            to="/services"
             className="text-secondary hover:text-green-600 font-medium"
           >
             Services
