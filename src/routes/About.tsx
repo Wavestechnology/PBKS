@@ -12,7 +12,7 @@ const About: React.FC = () => {
       
       {/* Breadcrumb Section */}
       <Breadcrumb 
-        pageTitle="About Pak Bookkeeping Services" 
+        pageTitle="About" 
         currentPage="About" 
       />
 
