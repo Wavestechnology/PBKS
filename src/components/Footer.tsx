@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <Link to="/">
               <img
-                src="logo1.png"
+                src="/logo1.png"
                 alt="Pak Bookkeeping Logo"
                 className="w-23 h-23 mb-4 rounded-full object-contain bg-white p-2"
               />
@@ -29,18 +29,18 @@ const Footer = () => {
                   About Us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/career" className="hover:text-accent transition">
                   Careers
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact" className="hover:text-accent transition">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="hover:text-accent transition">
+                <Link to="#" className="hover:text-accent transition">
                   Blog
                 </Link>
               </li>
@@ -53,24 +53,33 @@ const Footer = () => {
             <ul className="space-y-2 text-primary-light">
               <li>
                 <Link
-                  to="/bookkeeping"
+                  to="/services/bookkeeping"
                   className="hover:text-accent transition"
                 >
                   Virtual Bookkeeping
                 </Link>
               </li>
               <li>
-                <Link to="/tax" className="hover:text-accent transition">
+                <Link
+                  to="/services/tax-consultancy"
+                  className="hover:text-accent transition"
+                >
                   Tax Consultancy
                 </Link>
               </li>
               <li>
-                <Link to="/audit" className="hover:text-accent transition">
+                <Link
+                  to="/services/audit"
+                  className="hover:text-accent transition"
+                >
                   Internal Audit
                 </Link>
               </li>
               <li>
-                <Link to="/consulting" className="hover:text-accent transition">
+                <Link
+                  to="/services/management-consultancy"
+                  className="hover:text-accent transition"
+                >
                   Management Consulting
                 </Link>
               </li>

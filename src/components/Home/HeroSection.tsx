@@ -19,14 +19,22 @@ export default function HeroSection() {
 
         <div className="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
           <ServiceCard
-            href="/"
+            to="/services/bookkeeping"
             img="/bookkeeping.png"
             title="Virtual Bookkeeping"
           />
-          <ServiceCard href="/" img="tax.png" title="Tax Consultancy" />
-          <ServiceCard href="/" img="audit.png" title="Audit Services" />
           <ServiceCard
-            href="/"
+            to="/services/tax-consultancy"
+            img="tax.png"
+            title="Tax Consultancy"
+          />
+          <ServiceCard
+            to="/services/audit"
+            img="audit.png"
+            title="Audit Services"
+          />
+          <ServiceCard
+            to="/services/management-consultancy"
             img="management.png"
             title="Management Consulting"
           />
